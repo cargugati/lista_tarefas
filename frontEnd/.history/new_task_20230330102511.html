@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+  <div class="container my-5">
+
+    <!-- cabeçalho -->
+    <div class="row mb-4">
+      <div class="col">
+        <div class="d-flex justify-content-start">
+          <img src="./assets/images/favicon.png" alt="Logo" class="img-fluid me-3" width="40px">
+          <h1>Lista de Tarefas</h1>
+        </div>
+
+      </div>
+
+      <hr class="my-3">
+    </div>
+
+    <!-- espaço para criar nova tarefa -->
+    tasks
+    id
+    id_user
+    task_text
+    task_status(new | in progress | canceled | done)
+    created_at
+    updated_at
+
+    bd_tasks
+    users
+    - id -> uint auto
+    - username -> varchar(50)
+    - passwrd -> varchar(100)
+    - created_at -> datetime
+    - updated_at -> datetime
+
+
+
+
+
+
+
+    <!-- footer -->
+    <div class="row mt-3">
+      <div class="col text-center">
+        <hr>
+        <p>Lista de tarefas &copy; 2023</p>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
